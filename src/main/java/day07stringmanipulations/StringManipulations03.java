@@ -22,5 +22,17 @@ public class StringManipulations03 {
 
         double totalPrice=Double.valueOf(tv2)+ Double.valueOf(laptop1);
         System.out.println(totalPrice);
+
+        //ornek: verilen ismin ilk isminin ilk harfinin ve soy isminin ilk harfini ekrana yazdiriniz
+
+        String name="aLi CAn";
+        char first= name.trim().toUpperCase().charAt(0);
+        System.out.println(first);
+        char second= name.trim().toUpperCase().split(" ")[1].charAt(0);
+        System.out.println(second);
+        System.out.println(" "+first+ second);
+        //split methodu bir stringi istedigimiz karakterden patcalamaya yarar
+
+
     }
 }
