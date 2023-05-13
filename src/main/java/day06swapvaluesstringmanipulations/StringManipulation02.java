@@ -16,6 +16,8 @@ public class StringManipulation02 {
         //ornek: "change" String indeki "earn" kelimesini "win" kelimesine cevirin
         String all= change.replace("earn","win");
         System.out.println(all); //lwin java win dollar
+        //resplace : karakteri baska karakter ile degistirir
+        //javada hiclikle silme islemi yapilanilir ("") (bu islem icin String kullanmak gerek, charda hiclik yok)
 
         /*
         * //Ornek4: "s" String'indeki "a" harflerini "*" a ceviriniz

@@ -20,11 +20,18 @@ public class StringManipulation02 {
         System.out.println("lutfen sifrenize giriniz");
         String pwd=input.nextLine();
 
+        int karakterSayisi=pwd.length();
+        System.out.println(karakterSayisi);
+
         boolean first = pwd.length()>7;
         System.out.println("en az 8 karakter var mi: " +first);
 
         boolean second= !pwd.contains(" ");
         System.out.println("Space true mu false mu: "+second);
+
+        boolean bul=pwd.contains("Ali");
+        System.out.println(bul);
+        //contains icerip icermedigini soyler
 
         //Note: Buyuk harf olmayalari sil
         //kalan karakter sayisina bak

@@ -25,7 +25,7 @@ public class StringManipulations03 {
 
         //ornek: verilen ismin ilk isminin ilk harfinin ve soy isminin ilk harfini ekrana yazdiriniz
 
-        String name="aLi CAn";
+        String name="  aLTAy CAn";
         char first= name.trim().toUpperCase().charAt(0);
         System.out.println(first);
         char second= name.trim().toUpperCase().split(" ")[1].charAt(0);
