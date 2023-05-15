@@ -70,8 +70,8 @@ public class StringManipulation02 {
         System.out.println(result3);//true
 
     /*Homework
-    1) Bir string variable olusturunuz ve bu string deki rakam olmayan tum karakterlerin sayisini console a yazdiriniz
-    2) Bir string variable olusturunuz ve ilk karakter ile son karakter disindaki tum karakterleri console a buyuk harflerle yazdiriniz
+
+
     3) Bir string variable olusturunuz ve bu string deki ilk ve son karakterlerin ASCII degerleri toplamini console a yazdiriniz
     4) Tek kelimeli bir sehir ismi icin string variable olusturun ve sehir isiminin ilk harfini buyuk harfle diger harflerini kucuk harflerle
     console a yazdirin
@@ -86,9 +86,26 @@ public class StringManipulation02 {
     Note 3: Birbirinizin cozumlerini inceleyerek tavsiyede bulunabilir yada yardim isteyebilirsiniz
 
      */
+        //1) Bir string variable olusturunuz ve bu string deki rakam olmayan tum karakterlerin sayisini console a yazdiriniz
+        System.out.println(".....................odev.......................");
 
+        String input="java 10 numara bir yazilimdir  ";
 
+        boolean number=input.replaceAll("[^0-9]","").length()>0;
 
+        System.out.println("sayi var mi? "+ number);
+        int uzunluk = input.trim().length();
+
+        System.out.println(uzunluk);
+
+        String delate = input.replaceAll("\\d","");
+        System.out.println(delate);
+
+        String bosluk=delate.replace(" ","");
+        System.out.println(bosluk);
+        System.out.println(bosluk.length());
+
+        //2) Bir string variable olusturunuz ve ilk karakter ile son karakter disindaki tum karakterleri console a buyuk harflerle yazdiriniz
 
 
     }
