@@ -17,6 +17,16 @@ public class IfStatements03 {
             System.out.println("kucuk harf");
 
         }
+        //......................................//
+        if (karakter>='A' && karakter<='Z'){
+            System.out.println("buyuk harf");
+
+        }else if (karakter>='a' && karakter<='z'){
+            System.out.println("kucuk harf");
+
+        }else {
+            System.out.println("harf degil");
+        }
 
 
     }
