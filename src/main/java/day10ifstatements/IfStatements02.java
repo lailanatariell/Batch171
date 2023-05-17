@@ -28,7 +28,7 @@ public class IfStatements02 {
             System.out.println("cuma");
 
         } else if(num==7) {
-            System.out.println("sumartesi");
+            System.out.println("cumartesi");
 
         }else{
             System.out.println("boyle bir gun yok");
