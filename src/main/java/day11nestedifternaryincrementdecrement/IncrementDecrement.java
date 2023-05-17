@@ -74,6 +74,7 @@ public class IncrementDecrement {
 
         int m = 15;
         int n = ++m;//pre incerement
+
         System.out.println(m);//16
         System.out.println(n);//16
 
@@ -88,8 +89,8 @@ public class IncrementDecrement {
 
         int t = --s;
 
-        System.out.println(s);
-        System.out.println(t);
+        System.out.println(s);//19
+        System.out.println(t);//19
 
         /*
         1)Increment artirmak demektir, decrement azaltmak demektir.
@@ -98,6 +99,8 @@ public class IncrementDecrement {
                 b)i+=5;
                 c)eger 1 ile artirma ==> i++
                 note:bu c sikki sadece 1 artirmak icin kullanilir
+
+                Decrement
 
                 a)i=i-5;
                 b)i-=5;
