@@ -38,5 +38,21 @@ public class Loops02 {
 
         }
 
+        //Ornek 3: Verilen bir String de ilk a harfinden onceki tum characterleri console a yazdiriniz
+        // "I love Java"  ==>  "I love J"
+        String s1 = "Tramway";
+
+        for(int i=0;i<s1.length() ;                  i++ ){
+
+            char ch =s1.charAt(i);
+            if(ch=='a'){
+                break;
+            }
+            System.out.print(ch);
+        }
+        //ornek4:verilen bir stringte son a dan sonraki tum karakterleri ters sirada yazdiriniz
+
+
+
     }
 }
