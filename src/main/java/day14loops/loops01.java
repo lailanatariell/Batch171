@@ -35,5 +35,11 @@ public class loops01 {
         }
         System.out.println(ters3);
 
+        if (duz.equalsIgnoreCase(ters3)){
+            System.out.println("palindrome dur");
+        }else {
+            System.out.println("Palindrome degildir");
+        }
+
     }
 }
