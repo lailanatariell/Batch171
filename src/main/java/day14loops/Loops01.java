@@ -1,6 +1,6 @@
 package day14loops;
 
-public class loops01 {
+public class Loops01 {
     //ornek: bir string i ters ceviren kodu yaziniz
     //java==> avaj
     public static void main(String[] args) {
