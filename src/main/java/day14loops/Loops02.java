@@ -25,6 +25,17 @@ public class Loops02 {
         //ornek: verilen bir tamsayinin rakamlarinin toplamini veren kodu yaziniz
         //578==> 5+7+8=20
 
+        int toplam = 0;
+        int n = -578;
+        n = Math.abs(n);
+
+
+        for (int i = n; i > 0; i = i / 10) {
+            toplam = toplam + i % 10;
+        }
+        System.out.println(toplam);
+
+
 
 
 
