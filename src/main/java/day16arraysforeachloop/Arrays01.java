@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Arrays01 {
     public static void main(String[] args) {
         int a=13;
-        //bu yapinin icinde sadece bir tane datat depolanabilir
+        //bu yapinin icinde sadece bir tane data  depolanabilir
         //ama biz code yazarken bir yapinin icinde coklu data depolama ihtiyaci hissederiz
         //bir yapinin icinde coklu data depolayabilme icin java Array yapisinin olusturmustur
 
