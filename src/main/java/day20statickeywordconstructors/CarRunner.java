@@ -11,5 +11,11 @@ public class CarRunner {
         System.out.println(c1);
         System.out.println(c2);
         System.out.println(c3);
+
+        Car c4=new Car("Mercedes","C3000");
+        System.out.println(c4);
+
+        Car c5=new Car("murat",1988);
+        System.out.println(c5);
     }
 }
