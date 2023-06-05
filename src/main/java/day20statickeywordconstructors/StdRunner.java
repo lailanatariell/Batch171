@@ -18,5 +18,7 @@ public class StdRunner {
         std1.nonStaticMethod();
 
 
+
+
     }
 }
