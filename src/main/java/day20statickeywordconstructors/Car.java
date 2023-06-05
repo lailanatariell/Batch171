@@ -15,6 +15,20 @@ public class Car {
     class olustudugumuzda java bize otomatik olarak bir constructor verir. Ama bu constructor gozle gorulmez
     Gozle gorulmeyen otomatik olarak java tarafindan verilen bu constructorlara "default constructor" denir
      "default constructor" "    Car (){ }" seklindedir
+     Bir class da farkli parametreler kullanarak istediginiz kadar constructor olusturabililirsiniz
+     farkli constructorlar sayesinde bir class dan farkli farkli objectler olusturabilirsiniz.
+
+     1)Constructor nasil olusturulur?
+     Access modifier + Class ismi + () + {}
+
+     Interview sorusu
+     2) Method ile Constructor arasindaki farklar nelerdir?
+        a) Methodlarda return type olur constructor larda olmaz
+        b) Methodlar yaptiklari ise gore isimlendirilirler, Constructorlar ise her zaman "Class ismi" ile isimlendirilirler
+        c) Method lar bir aksiyon yapmak icin olusturulurlar. Constructorlar ise object olusturmak icindir
+        d) Method isimleri kucuk harfle baslar, Constructor isimleri class isimleri ile ayni oldugu icin buyuk harfle baslar
+     3)Parametreli Constructorlar olusturarak ayni class dan farkli ozelliklere sahip objectler olusturabiliriz
+
 
 
      */
