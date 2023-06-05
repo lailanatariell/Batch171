@@ -11,8 +11,21 @@ public class Student {
     4)static class memberlara ulasmak icin object olusturmaya gerek duyulmaz
     ama non static class memberlara ulasmak icin object olusturmak sarttir
     5) static variable larin diger adi "Class variable"dir
-    non static varibale larin diger adi"instance variable " veya "object variable"dir
+    non static varibale larin diger adi "instance variable " veya "object variable"dir
 
      */
-    String stdName="Tom Hanks";
+    //passif ozellikler
+    public static String stdName="Tom Hanks";
+
+    public int age=13;
+
+    //aktif ozellikler
+
+    public static  void staticMethod(){
+        System.out.println("ben static methodum");
+    }
+
+    public void nonStaticMethod(){
+        System.out.println("ben static olmayan methodum");
+    }
 }
