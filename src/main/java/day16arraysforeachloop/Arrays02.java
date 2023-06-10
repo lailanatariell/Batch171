@@ -32,6 +32,7 @@ public class Arrays02 {
         brr[4]="naryn";
 
         //1.yol for loop
+        System.out.println(Arrays.toString(brr));
 
         int totalChar=0;
         for (int i = 0; i < brr.length; i++) {
@@ -54,6 +55,25 @@ public class Arrays02 {
             sum=sum+w.length();
         }
         System.out.println(sum);
+
+        //ornek: 3 notlar adinda integer bir array olusturunuz icinde 6 tane
+        //notyerlestiriniz ve not ortalamasini ekrana yazdiriniz
+
+        int notlar[]=new int[6];
+        notlar[0]=50;
+        notlar[1]=70;
+        notlar[2]=60;
+        notlar[3]=40;
+        notlar[4]=90;
+        notlar[5]=80;
+
+        System.out.println(Arrays.toString(notlar));
+
+        int ortalama=0;
+        for (int w: notlar) {
+            ortalama =ortalama+w;
+        }
+        System.out.println(ortalama/ notlar.length);
 
 
 
