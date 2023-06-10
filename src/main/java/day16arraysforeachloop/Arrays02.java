@@ -39,6 +39,23 @@ public class Arrays02 {
         }
         System.out.println(totalChar);
 
+        //2.yol for each loop(enhanced loop)
+        //baslangic degeri , loopun calisma sarti ve increment/decrement kismini kendisi halleder
+        //for-each loop "array"lerde ve collection larda kullanilir
+        /*
+        kalibi olusturalim
+        for (DataType variableName(w): array/collection) {
+            calisacak kodlar
+        }
+         */
+
+        int sum=0;
+        for (String w: brr) {
+            sum=sum+w.length();
+        }
+        System.out.println(sum);
+
+
 
 
 
