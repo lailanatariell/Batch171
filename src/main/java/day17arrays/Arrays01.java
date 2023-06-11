@@ -36,6 +36,15 @@ public class Arrays01 {
             }
         }
 
+        //ornek : size verilen bir string arraydeki isimleri alfabetik siraya koyduktan sonra
+        //"f" ile baslayan isimler haric diger isimleri consola yazdiriniz
+        // note 1: sort() methodu sayisal data typr larini kucukken buyuge siralar (ascending order)
+        // note 2: sort() mothodu string data typelarini alfabetik olarak siralar(alphabetical order)
+        // note 3: ascending order+alphabetical order ==> natural order
+        // note 4: sort() methodu array elemanlarini  natural order a gore siralar
+
+        Arrays.sort(stdName);
+        System.out.println(Arrays.toString(stdName));
 
 
     }
