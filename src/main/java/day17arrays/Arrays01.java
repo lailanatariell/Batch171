@@ -46,6 +46,14 @@ public class Arrays01 {
         Arrays.sort(stdName);
         System.out.println(Arrays.toString(stdName));
 
+        for (String w : stdName) {
+            if (w.startsWith("F")){
+                continue;
+
+            }
+            System.out.println(w);
+        }
+
 
     }
 }
