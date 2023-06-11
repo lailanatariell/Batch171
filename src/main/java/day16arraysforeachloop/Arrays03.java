@@ -25,11 +25,14 @@ public class Arrays03 {
 
         //2.yol
          int minumum = ages[0];
+         int maximun= ages[0];
         for (int w:ages) {
             minumum=Math.min(minumum,w);
+            maximun=Math.max(maximun,w);
+
 
         }
-        System.out.println(minumum);
+        System.out.println(minumum+maximun);
 
 
 
