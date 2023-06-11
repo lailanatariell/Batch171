@@ -20,5 +20,23 @@ public class Arrays01 {
         //System.out.println(arr.length-sayac);
         System.out.println("arrayde "+sayac+ " adet cift sayi "+(arr.length-sayac)+ " adet tek sayi kullanilmistir");
 
+        //ornek : size verilen string arraydeki isimlerden 5 karakterden az karakter icerenleri consoola yazdiriniz
+        String stdName[]= new String[5];
+
+        stdName[0]="Ajda";
+        stdName[1]="Ayhan";
+        stdName[2]="Tom";
+        stdName[3]="Cuneyt";
+        stdName[4]="Filiz";
+
+        for (String w:stdName)
+              {
+            if (w.length()<5){
+                System.out.println(w);
+            }
+        }
+
+
+
     }
 }
