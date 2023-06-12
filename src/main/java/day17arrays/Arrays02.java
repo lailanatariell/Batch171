@@ -22,8 +22,8 @@ public class Arrays02 {
 
         String stdNames[]= new String[numOfElement];
         System.out.println("islemi durdurmak icin 'q' ya basiniz");
-        for (int i = 0; i < stdNames.length ; ++) {
-            System.out.println((i+1)+ ". ogrencinin ismini giriniz");
+        for (int i = 0; i < stdNames.length ; i++) {
+            System.out.println((i+1)+ ". ogrencinin ismini giriniz");// i , 0dan basladigi icin +1 yazdik diger turlu 0.inci ogrenciye gir denilirdi
             String name= input.next();
 
             if(name.equalsIgnoreCase("q")){
