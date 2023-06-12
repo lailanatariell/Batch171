@@ -22,6 +22,18 @@ public class Arrays03 {
         }
 
 
+        //2. yol. binarySearch() methodu hizli calisir
+        /*
+        1. binarySearch() methodunu sort() kullanmadan kullanmayiz, cunku binarySearch() mantigi sirali elemanlar icin gecerlidir
+        2. binarySearch() methodu var olan elemanlar icin size o elemanin index ini verir
+        3. binarySearch() methodudan aldiginiz index 0 veya 0 dan buyukse bu o eleman arrayde var demektir
+
+
+         */
+
+
+
+
 
 
 
