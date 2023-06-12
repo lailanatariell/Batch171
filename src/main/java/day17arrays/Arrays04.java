@@ -2,7 +2,7 @@ package day17arrays;
 
 import java.util.Arrays;
 
-public class Array04 {
+public class Arrays04 {
     public static void main(String[] args) {
         //ornek: size verilen bir cumlede kac tane kelime oldugunu gosteren kodu yaziniz
 
