@@ -42,6 +42,16 @@ public class Arrays03 {
         }else{
             System.out.println("Array has"+eleman);
         }
+        System.out.println(Arrays.toString(name));
+
+        int num1= Arrays.binarySearch(name,"A");
+        System.out.println(num1);
+
+        int num2= Arrays.binarySearch(name,"K");
+        System.out.println(num2);
+
+        int num3= Arrays.binarySearch(name,"U");
+        System.out.println(num3);
 
 
 
