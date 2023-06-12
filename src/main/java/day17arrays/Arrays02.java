@@ -23,6 +23,13 @@ public class Arrays02 {
         System.out.println("islemi durdurmak icin 'q' ya basiniz");
         for (int i = 0; i < stdNames.length ; ++) {
             System.out.println((i+1)+ ". ogrencinin ismini giriniz");
+            String name= input.next();
+
+            if(name.equalsIgnoreCase("q")){
+                break;
+            }else{
+                stdNames[i]=name;
+            }
 
         }
 
