@@ -1,5 +1,6 @@
 package day17arrays;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Arrays02 {
@@ -32,6 +33,7 @@ public class Arrays02 {
             }
 
         }
+        System.out.println(Arrays.toString(stdNames));
 
     }
 }
