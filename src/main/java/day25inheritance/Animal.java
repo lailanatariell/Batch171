@@ -3,10 +3,23 @@ package day25inheritance;
 public class Animal {
 //Inheritance ==> Miras alma
     /*
+
     Ozellikleri bir classtan diger classlara alan bir kavramdir, Bunun javadaki karsiligi sudur:
     Siz bir class olusturacaksiniz ama daha once olusturulmus bir class sizin istediginiz ozelliklerin
      bir cogunu kapsiyor, o zaman direkt yeni olusturdugunuz classi ozelliklerini kullanmak istediginiz
      classa  child yapariz
+
+     classlar bir kaliptir
+     animal
+     eat(){...}
+     drink(){...}
+
+     cat           dog          bird
+     eat(){...}    eat(){...}   eat(){...}(bunlari artik animal classtan kullanilir)
+     drink(){...}  drink(){...} drink(){...}(bunu da ayni sekilde animal classtan kullanilir)
+     meow(){...}   bark(){...}  tweet(){...}()
+     fark ettiyseniz kod tekrari oluyor
+
 
      Inhertiance in faydalari
      1) Code tekrarlarindan kurtuluruz
