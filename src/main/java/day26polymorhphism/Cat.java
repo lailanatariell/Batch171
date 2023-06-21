@@ -10,10 +10,18 @@ public class Cat extends Animal{
         System.out.println("Cats eat ..");
     }
 
-    //Override Annotation: Override kurallarinin java tarafindan kontrol edilmesini saglar
+    //Override Annotation: Override kurallarinin java tarafindan kontrol
+    // edilmesini saglar
+
+    //@Override
+    //public void drink() {
+      //  System.out.println("Cats drink");
+    //}
+
+
     @Override
     public void drink() {
-        System.out.println("Cats drink");
+        System.out.println("cats drink");
     }
 
     @Override
