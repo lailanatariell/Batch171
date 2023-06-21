@@ -32,6 +32,24 @@ public class Animal {
      =>Child class objectleri Parent Class dan method ve variablellari kullanabilirler
      =>Parent class objectleri child classtan method ve variablellari kullanamazlar
 
+     =>Javada bir classin sadece 1 tane parenti i olabilir Coklu parent a "Multiple Inheritance" derler
+     tekli parent a "Single Inheritance" derler, java Multiple Inheritance i desteklemez
+     java "Single Inheritance " kullanir
+
+     =>Apartman seklindeki inheritance yapisina "Multilevel inheritance " denir
+     Java "Multilevel inheritance " i destekler
+
+     => Object Class her classin parentidir. Java da Object Class haric her classin parenti vardir
+        Javada parent i olmayan tek class Object classtir
+
+     => Javada parenttan childa olan iliskilere "HAS-A Relationship " denir
+        child dan parent a olan iliskilere "IS-A Relationship " denir
+
+    => Javada her classin bir tane default constructor i vardir. Bu default constructor classin icinde gorunmez cunku
+        constructor "Object Class" icindedir.
+
+
+
      */
 
 
@@ -41,6 +59,13 @@ public class Animal {
 
     public void drink(){
         System.out.println("Animals drink... ");
+    }
+
+    public static void main(String[] args) {
+        Cat c1= new Cat();
+        c1.eat();
+        c1.meow();
+        c1.eat();
     }
 
 
